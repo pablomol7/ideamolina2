@@ -42,6 +42,8 @@ nav ul li a:hover{
 	transition: .4s;
 }
 .btn{
+    position: relative;
+    left: 70%;
     background-color: rgb(189, 31, 31);
     color: white;
     text-decoration: none;
@@ -56,7 +58,7 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 8%;
     transform: translateY(-50%);
 }
