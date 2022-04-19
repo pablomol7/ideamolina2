@@ -160,7 +160,7 @@ button:hover{
 	cursor: pointer;
 }
 
-.service{
+.services{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
@@ -298,6 +298,7 @@ footer h6{
 	transition: .3s;
 }
 .end{
+
 	position: absolute;
 	color:#f9004d;
 	bottom: 35px;
