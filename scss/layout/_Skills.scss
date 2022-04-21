@@ -1,0 +1,27 @@
+@import "../utilities/variables";
+
+.Skills{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+    background-color: $color-fondo;
+  }
+  .Skills-text{
+      width: 550px;
+  }
+  .Skills-text h2 {
+      color: $color-letra;
+      letter-spacing:2px;
+      font-size: 75px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+  }
+  
+  .Skills-text p{
+      color: $color-letra;
+      letter-spacing:1px;
+      line-height: 28px;
+      font-size: 20px;
+      margin-bottom: 45px;
+  }
