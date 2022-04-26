@@ -105,7 +105,8 @@ h4 {
 .Aboutme {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: 'showcase showcase top-box-a' 'showcase showcase top-box-b';
+  grid-template-areas: 'showcase showcase top-box-a'
+ 'showcase showcase top-box-b';
   grid-area: showcase;
   min-height: 400px;
   background-size: cover;
@@ -153,7 +154,7 @@ button:hover {
   border: 2px solid #f9004d;
   cursor: pointer; }
 
-.service {
+.Services{
   background: #101010;
   width: 100%;
   padding: 100px 0px; }
